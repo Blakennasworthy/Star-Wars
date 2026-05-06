@@ -1,0 +1,13 @@
+{
+  "name": "star-wars-ai-image-generator",
+  "version": "1.0.0",
+  "description": "A simple AI image generation app with HTML, CSS, and JavaScript.",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "express": "^4.18.2"
+  }
+}

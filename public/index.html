@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Star Wars AI Image Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="background-layer" class="background-layer"></div>
+    
+    <main class="app-shell">
+      <div class="hero">
+        <h1>Star Wars Image Search</h1>
+        <p>Search the web for Star Wars images that match your description.</p>
+      </div>
+
+      <form id="prompt-form" class="prompt-form">
+        <label for="prompt">Star Wars description</label>
+        <textarea id="prompt" rows="4" placeholder="Stormtroopers marching on a forest moon of Endor..."></textarea>
+        <div class="controls">
+          <button type="submit">Search Images</button>
+        </div>
+      </form>
+
+      <div class="status" id="status">Ready to search.</div>
+
+      <div class="image-panel" id="image-panel">
+        <div id="results-panel" class="image-grid"></div>
+      </div>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
